@@ -1,6 +1,6 @@
 import { Scene, Vector3, type Mesh } from "@babylonjs/core"
-import { addControlListeners, addMotionListeners } from "./utils/controls";
-import { initBox, initSphere } from "./utils/setup";
+import { addMotionListeners } from "./utils/controls";
+import { initSphere } from "./utils/setup";
 
 export class Player {
     public static readonly SPEED = 2.5;

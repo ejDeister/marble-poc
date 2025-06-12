@@ -1,6 +1,6 @@
 import { CannonJSPlugin, HemisphericLight, Vector3, Camera, Engine, GroundMesh, Light, Scene } from "@babylonjs/core";
 import { Player } from "./player";
-import { initBox, initCamera, initCanvas, initGround, initScene } from "./utils/setup";
+import { initCamera, initCanvas, initGround, initScene } from "./utils/setup";
 import * as CANNON from "cannon-es";
 
 export class Game {
